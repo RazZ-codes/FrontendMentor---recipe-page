@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: medium;
+    background-color: hsl(30, 54%, 90%); /* fundo rosa do body */
+    color: hsl(24, 5%, 18%); /* cor do texto padrão */
+}
+h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+p{
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+tr{
+    margin-bottom: 4rem;
+}
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%); /* marrom */
+  font-weight: 700; /* deixa o número mais destacado */
+}
+.nutrition td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+ul li::marker {
+  color: hsl(14, 45%, 36%); /* marrom */
+}
+.prep-time::marker{
+    color: hsl(332, 51%, 32%);
+}
+ul, ol {
+     margin-left: 1.5rem;
+}
+li {
+    margin-bottom: 1rem;
+}
+.container {
+    
+    border-radius: 16px;
+    background-color: white;  /* caixa branca no centro */
+    padding: 2rem 3rem;
+    width: 100%;
+    max-width: 800px;
+   
+}
+.container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 800px;
+}
+h1, h2 {
+    margin-bottom: 1rem;
+    font-size: 700;
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%); /* marrom */
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%); /* rosa claro */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.prep-time h2 {
+    color: hsl(332, 51%, 32%); /* cor especial só nesse h2 */
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nutrition td {
+  padding: 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.attribution {
+    font-size: medium;
+}
